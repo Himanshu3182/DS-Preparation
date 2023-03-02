@@ -13,7 +13,7 @@ public class maxSubarraySum {
                 currSum=0;
                 for(int k=i; k<=j; k++){
                     currSum+=numbers[k];
-                }
+                } 
                 System.out.println(currSum);
                 if(maxSum<currSum){
                     maxSum=currSum;
